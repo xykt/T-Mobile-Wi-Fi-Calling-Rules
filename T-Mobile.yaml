@@ -1,0 +1,24 @@
+# NAME: Reference
+# AUTHOR: xykt
+# REPO: https://github.com/xykt/T-Mobile-Wi-Fi-Calling-Rules
+# UPDATED: 2023-10-15 19:33:00
+# DOMAIN-KEYWORD: 0
+# DOMAIN-SUFFIX: 10
+# IP-CIDR: 3
+# IP-CIDR6: 0
+# PROCESS-NAME: 0
+# TOTAL: 13
+payload:
+  - DOMAIN-SUFFIX,t-mobile.com
+  - DOMAIN-SUFFIX,crl.t-mobile.com
+  - DOMAIN-SUFFIX,eas3.msg.t-mobile.com
+  - DOMAIN-SUFFIX,mascns.t-mobile.com
+  - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+  - DOMAIN-SUFFIX,3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+  - IP-CIDR, 208.54.0.0/16,no-resolve
+  - IP-CIDR, 66.94.0.0/19,no-resolve
+  - IP-CIDR, 206.29.176.0/22,no-resolve
